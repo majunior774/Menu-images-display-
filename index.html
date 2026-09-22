@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Indian Chicken Soup — Swiggy Menu Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">RESTAURANT IMAGE KIT</p>
+      <h1>INDIAN CHICKEN SOUP</h1>
+      <p class="subtitle">Menu images for Swiggy · 1:1 square gallery</p>
+      <p class="muted">66 item-labelled image files · ready to preview and download</p>
+    </div>
+    <div class="hero-actions">
+      <span class="pill">▣ 1:1 Ratio</span>
+      <span class="pill">⬇ JPG Assets</span>
+      <button id="downloadAll" class="primary">Download all images (.ZIP)</button>
+    </div>
+  </header>
+
+  <section class="toolbar">
+    <div id="filters" class="filters"></div>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search menu item..." aria-label="Search menu items">
+    </div>
+  </section>
+
+  <main>
+    <div class="results-line"><span id="resultCount"></span><span class="hint">Click Download on any card for its JPG</span></div>
+    <div id="gallery" class="gallery"></div>
+    <div id="empty" class="empty" hidden>No items match your search.</div>
+  </main>
+
+  <footer>
+    <strong>Image note:</strong> These are illustrative AI-generated food visuals, not verified photographs of your kitchen’s exact dishes.
+    Similar menu variants may share a visual. For the most accurate Swiggy listing, replace with photos of the actual prepared dish.
+  </footer>
+  <script src="menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
