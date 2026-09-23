@@ -1,7 +1,10 @@
-INDIAN CHICKEN SOUP — SWIGGY MENU IMAGE KIT
+INDIAN CHICKEN SOUP — SWIGGY MENU IMAGE KIT | NIGHT-MARKET EDITION
 
 Open index.html in a browser to browse, search, filter, and download individual JPG images.
-The page includes a bulk ZIP button (requires internet access for JSZip CDN). Images are 512x512 square JPGs.
+
+ALL 66 MENU ENTRIES ARE INCLUDED. The alignment issue after Rumali Roti has been corrected: each card now displays a complete square image in its own correctly named menu position, rather than a narrow/misaligned crop.
+
+Some entries reuse a visually related image from the generated set because the source night-market collage did not contain 66 distinct dish photos. These are illustrative AI-generated visuals, not verified photos of the restaurant's actual dishes. Review before uploading to Swiggy; actual prepared-dish photos are the most accurate representation.
 
 Folders:
 - index.html: gallery interface
@@ -10,6 +13,4 @@ Folders:
 - menu-data.js: menu names, prices and image paths
 - images/: 66 individually named JPG assets
 
-IMPORTANT:
-The images are illustrative AI-generated food visuals cropped from a generated gallery mockup, not verified photos of the restaurant's actual dishes. Similar variants may share a visual. Review every image before uploading to Swiggy; replace with actual dish photos where authenticity matters.
-Menu names/prices were transcribed from the supplied Updated_Food_Menu.pdf. The menu includes repeated dishes in separate sections; those are kept as separate entries where listed.
+Menu names/prices were transcribed from the supplied Updated_Food_Menu.pdf. Repeated dishes in separate menu sections are retained where listed.
